@@ -6,10 +6,5 @@ function sum2(num1, num2) {
   return num1 + num2;
 }
 
-function sum3(num1, num2) {
-  return num1 + num2;
-}
-
 module.exports = sum;
 module.exports = sum2;
-module.exports = sum3;
