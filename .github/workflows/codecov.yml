@@ -33,6 +33,8 @@ jobs:
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
+      with:
+        token: 5a8c1c32-d467-47ef-a0d4-b5e9673cef13
 
     - name: Code Coverage Report
       uses: romeovs/lcov-reporter-action@v0.2.11
